@@ -1,85 +1,104 @@
 ### Step 2A
+/c/Users/Ken/Desktop/
 
 
 ### Step 2B
-
+cd ..
 
 ### Step 2C
+cd unit1-git-practice/
 
 
 ### Step 2D
+/c/Users/Ken/Desktop/unit1-git-practice
 
 
 ### Step 2E
-
+ls
 
 ### Step 2F
+my-steps.txt
 
 
 ### Step 2G
+cd /
 
 
 ### Step 2H
+/
 
 
 ### Step 2I
-
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins001.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins001.msg
+bin/               etc/  mingw64/       unins001.dat  usr/
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
-
-
+cd desktop/unit1-git-practice/
 
 ### Step 3A
-
+mkdir "veggies"
+mkdir "meats"
+mkdir "desserts"
 
 ### Step 3B
-
+mv desserts sweets
 
 ### Step 3C
-
+mkdir proteins
 
 ### Step 3D
-
+mv meats proteins
 
 ### Step 3E
-
+cd veggies/
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
-
+cd ..
+cd sweets/
+touch cookie.txt
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
-
+cd ..
+touch thing.txt
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt proteins/
 
 ### Step 3K
-
+cp thing.txt crab.txt
+mv crab.txt proteins/meats/
 
 ### Step 3L
-
+rm thing.txt
 
 ### Step 3M
-
+cp -r veggies plants
 
 ### Step 3N
-
-
+mkdir drinks
+rm -r drinks
 
 ### Step 4
-
+git init
+git add .
+git commit -m 'initial commit'
 
 ### Step 5
-
+git remote add origin git@github.com:KenanCross/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
 
